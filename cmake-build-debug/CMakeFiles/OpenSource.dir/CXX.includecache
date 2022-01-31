@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/thors/CLionProjects/OpenSource/include/counting_sort.h
+assert.h
+-
+iostream
+-
+
+C:/Users/thors/CLionProjects/OpenSource/main.cpp
+C:/Users/thors/CLionProjects/OpenSource/include/counting_sort.h
+-
+
